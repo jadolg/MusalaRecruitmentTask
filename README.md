@@ -1,4 +1,4 @@
-# Mussala recruitment task
+# Musala recruitment task
 
 ## Problem
 The normal Bulgarian phone number is like: +359878123456, where:

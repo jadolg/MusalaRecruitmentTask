@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  mussala_task:
+  musala_task:
     build: .
-    image: mussala_task_test
+    image: musala_task_test
     command: pytest . -x --cov=./ --pep8 --flakes
