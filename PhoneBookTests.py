@@ -1,6 +1,6 @@
 import unittest
 
-from main import PhoneBook
+from PhoneBook import PhoneBook
 
 NUMBERS_DO_NOT_MATCH = 'Number do not match'
 RESULT_IS_NOT_NONE = 'Result is not None'
