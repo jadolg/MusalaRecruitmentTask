@@ -52,7 +52,7 @@ class PhoneBook:
         if phone:
             self.phones.append({'name': name, 'phone': phone})
             # Sort after inserting to avoid sorting when printing
-            self.phones = sorted(self.phones, key=lambda pair: pair['name'])
+            list.sort(self.phones, key=lambda pair: pair['name'])
         else:
             raise ValueError("")
 
